@@ -1,0 +1,126 @@
+# LIFXControl
+ND-controller-NAME = LiFX Controller
+ND-controller-ICON = GenericCtl
+CMD-ctl-DISCOVER-NAME = Re-Discover Bulbs
+CMD-ctl-DON-NAME = All On
+CMD-ctl-DOF-NAME = All Off
+CMD-ctl-SET_COLOR-NAME = Color All
+CMD-ctl-SET_HSBKD-NAME = All HSBKD
+CMD-ctl-WAVEFORM-NAME = All Waveform
+ST-ctl-ST-NAME = NodeServer Online
+ST-ctl-GV0-NAME = Bulbs discovered
+
+# Color Bulbs
+ND-lifxcolor-NAME = LIFX Color Bulb
+ND-lifxcolor-ICON = Lamp
+
+# Tile
+ND-lifxtile-NAME = LIFX Tile
+ND-lifxtile-ICON = Lamp
+
+ST-ST-NAME = Status
+ST-GV0-NAME = WiFi Signal (RSSI/SNR)
+ST-GV1-NAME = Hue
+ST-GV2-NAME = Saturation
+ST-GV3-NAME = Brightness
+ST-CLITEMP-NAME = Color Temperature
+ST-GV5-NAME = Online
+ST-GV6-NAME = Uptime
+ST-GV7-NAME = Infrared Brightness
+ST-GV8-NAME = Tiles in Chain
+ST-GV9-NAME = Effect
+ST-RR-NAME = Transition time
+
+COLOR_CHOICE-0 = Red
+COLOR_CHOICE-1 = Orange
+COLOR_CHOICE-2 = Yellow
+COLOR_CHOICE-3 = Green
+COLOR_CHOICE-4 = Cyan
+COLOR_CHOICE-5 = Blue
+COLOR_CHOICE-6 = Purple
+COLOR_CHOICE-7 = Pink
+COLOR_CHOICE-8 = White
+COLOR_CHOICE-9 = Cold White
+COLOR_CHOICE-10 = Warm White
+COLOR_CHOICE-11 = Gold
+
+WF_CHOICE-0 = Saw
+WF_CHOICE-1 = Sine
+WF_CHOICE-2 = HalfSine
+WF_CHOICE-3 = Triangle
+WF_CHOICE-4 = Pulse
+WF_CHOICE-5 = Transient Saw
+WF_CHOICE-6 = Transient Sine
+WF_CHOICE-7 = Transient HalfSine
+WF_CHOICE-8 = Transient Triangle
+WF_CHOICE-9 = Transient Pulse
+
+TEFF_CH-0 = None
+TEFF_CH-1 = Morph
+TEFF_CH-2 = Flame
+
+MZEFF_CH-0 = None
+MZEFF_CH-1 = Move
+
+#Generic for all Types
+CMD-DON-NAME = On
+CMD-DOF-NAME = Off
+CMD-DFON-NAME = Fast On
+CMD-DFOF-NAME = Fast Off
+CMD-BRT-NAME = Brighten
+CMD-DIM-NAME = Dim
+CMD-FDUP-NAME = Fade Up
+CMD-FDDOWN-NAME = Fade Down
+CMD-FDSTOP-NAME = Fade Stop
+CMD-QUERY-NAME = Query
+CMD-SETH-NAME = Set Hue
+CMD-SETS-NAME = Set Saturation
+CMD-SETB-NAME = Set Brightness
+CMD-SETIR-NAME = Set Infrared Brightness
+CMD-CLITEMP-NAME = Set Color Temperature
+CMD-RR-NAME = Set Transition Time
+CMD-SET_HSBKD-NAME = Change HSBKD
+CMD-SET_COLOR-NAME = Set Color To
+CMD-WAVEFORM-NAME = Run Waveform
+CMD-EFFECT-NAME = Effect
+CMD-TILESV-NAME = Save tile colors
+CMD-TILERT-NAME = Recall tile colors
+
+CMDP-H-NAME = Hue
+CMDP-S-NAME = Saturation
+CMDP-B-NAME = Brightness
+CMDP-K-NAME = Color Temperature
+CMDP-D-NAME = Transition Time
+CMDP-Z-NAME = Zone Number
+CMDP-PE-NAME = Period
+CMDP-CY-NAME = Cycles
+CMDP-DC-NAME = Duty Cycle
+CMDP-WF-NAME = Waveform
+CMDP-EF-NAME = Effect
+CMDP-ES-NAME = Effect Speed
+CMDP-ED-NAME = Effect Duration
+CMDP-ER-NAME = Reverse Direction
+
+# White Bulbs
+ND-lifxwhite-NAME = LIFX Color Bulb
+ND-lifxwhite-ICON = Lamp
+
+# LIFX Groups
+ND-lifxgroup-NAME = LIFX Group
+ND-lifxgroup-ICON = LampAndSwitch
+ST-lifxg-ST-NAME = Number of Devices in Group
+
+# MultiZone Bulbs
+ND-lifxmultizone-NAME = LIFX MultiZone Bulb
+ND-lifxmultizone-ICON = Lamp
+
+ST-lifxmz-GV4-NAME = Current Zone
+CMD-lifxmz-SETZ-NAME = Set Zone
+CMD-lifxmz-SET_HSBKDZ-NAME = Change HSBKDZ
+CMD-lifxmz-APPLY-NAME = Apply
+
+PGM-CMD-SET_HSBKD-FMT = /H// Hue ${v}/ /S// Saturation ${v}/ /B// Brightness ${v}/ /K// Color Temp ${v}/ /D// in ${v}/
+PGM-CMD-SET_HSBKDZ-FMT = /Z// Zone ${v}/ /H// Hue ${v}/ /S// Saturation ${v}/ /B// Brightness ${v}/ /K// Color Temp ${v}/ /D// in ${v}/
+PGM-CMD-WAVEFORM-FMT = /WF// ${v}/ /CY// ${v} cycles/ /PE// ${v} each,/ /DC// duty cycle ${v}/ /H// Hue ${v}/ /S// Saturation ${v}/ /B// Brightness ${v}/ /K// Color Temp ${v}/
+PGM-CMD-lifxmz-EFFECT-FMT = /EF// Effect ${v}/ /ES// Speed ${v}/ /ED// Duration ${v}/ /ER// Reverse Direction ${v}/
+PGM-CMD-lifxt-EFFECT-FMT = /EF// Effect ${v}/ /ES// Speed ${v}/ /ED// Duration ${v}/ /B// Brightness ${v}/

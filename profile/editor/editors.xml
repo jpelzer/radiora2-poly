@@ -1,0 +1,64 @@
+<editors>
+    <!-- Boolean -->
+    <editor id="bool">
+        <range uom="2" subset="0,1" />
+    </editor>
+    <!-- LIFX Color Editor -->
+    <editor id="lifxclr">
+        <range uom="56" min="0" max="65535" prec="0" step="1" />
+    </editor>
+    <!-- LIFX Kelvin Editor -->
+    <editor id="lifxkelvin">
+        <range uom="26" min="2500" max="9000" prec="0" step="1" />
+    </editor>
+    <!-- LIFX Uptime Editor -->
+    <editor id="lifxuptime">
+        <range uom="20" prec="0" min="0" max="65535" />
+    </editor>
+    <!-- LIFX Duration Editor -->
+    <editor id="lifxduration">
+        <range uom="42" min="0" max="540000" prec="0" step="1" />
+    </editor>
+    <!-- LIFX Color Choice Editor -->
+    <editor id="lifxchoice">
+        <range uom="25" subset="0-11" nls="COLOR_CHOICE" />
+    </editor>
+    <!-- LIFX Zone Choice Editor -->
+    <editor id="lifxzone">
+        <range uom="56" min="0" max="80" prec="0" step="1" />
+    </editor>
+    <!-- LIFX Status Editor -->
+    <editor id="lifxst">
+        <range uom="51" min="0" max="100" prec="4" />
+    </editor>
+    <!-- LIFX WiFi Signal Level -->
+    <editor id="lifxwifi">
+        <range uom="56" min="-100" max="200" prec="1" />
+    </editor>
+    <!-- LIFX Duty Cycle -->
+    <editor id="lifxduty">
+        <range uom="56" min="-32768" max="32768" prec="0" step="1" />
+    </editor>
+    <!-- LIFX Waveform -->
+    <editor id="lifxwave">
+        <range uom="25" subset="0-9" nls="WF_CHOICE" />
+    </editor>
+    <!-- LiFX Tile Effect -->
+    <editor id="lifxtef">
+        <range uom="25" subset="0-2" nls="TEFF_CH" />
+    </editor>
+    <!-- LiFX MultiZone Effect -->
+    <editor id="lifxmzef">
+        <range uom="25" subset="0-1" nls="MZEFF_CH" />
+    </editor>
+    <!-- LiFX Effect Speed / Duration -->
+    <editor id="lifxes">
+        <range uom="42" min="0" max="4294967296" prec="0" step="1" />
+    </editor>
+    <editor id="tilemem">
+	<range uom="56" min="1" max="10" prec="0" step="1" />
+    </editor>
+    <editor id="tilecnt">
+	<range uom="56" min="1" max="5" prec="0" step="1" />
+    </editor>
+</editors>
