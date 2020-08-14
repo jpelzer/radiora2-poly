@@ -4,8 +4,19 @@
     "type": "python3",
     "executable": "lutron-poly.py",
     "install": "install.sh",
-    "shortPoll": "30",
-    "longPoll": "600",
     "description": "Add Lutron RadioRA2 control to the ISY994.",
-    "notice": "\"Lutron RadioRA2\" is trademarked., see http://www.lutron.com for more information. This Node Server is neither developed by nor endorsed by Lutron."
+    "notice": "\"Lutron RadioRA2\" is trademarked., see http://www.lutron.com for more information. This Node Server is neither developed by nor endorsed by Lutron.",
+    "shortPoll": "60",
+    "longPoll": "60",
+    "profile_version": "1.0.0",
+    "credits": [
+    	{
+    		"title": "Lutron RadioRA2: A node server for control of Lutron RadioRA2 systems",
+    		"author": "Jason Pelzer",
+    		"version": "1.0.0",
+    		"date": "August 14, 2020",
+    		"source": "https://github.com/jpelzer/radiora2-poly",
+		"license": "https://github.com/jpelzer/radiora2-poly/blob/master/LICENSE"
+		}
+	]
 }
